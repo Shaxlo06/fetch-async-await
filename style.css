@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1408px;
+    width: 100%;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+form {
+    max-width: 1308px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.input {
+    max-width: 1104px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 61px;
+    border: none;
+    padding-left: 33px;
+    font-size:24px;
+}
+
+.input:focus {
+    border: 2px solid rgba(110, 120, 128, 0.3);
+    outline: none;
+}
+
+.btn-search {
+    width: 158px;
+    height: 62px;
+    background: #111111;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.card {
+    max-width: 1308px;
+    width: 100%;
+    height: 737px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 14px;
+    padding-top: 37px;
+    padding-left: 32px;
+}
+
+.card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+
+.card-desc1 {
+    margin-top: 25px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 24px;
+}
+
+blockquote {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.icon-play {
+    margin-right: 18px;
+}
+
+.play-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.icon-play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
